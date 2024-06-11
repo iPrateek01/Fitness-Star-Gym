@@ -13,7 +13,16 @@
           <img src="assets/4.png" alt="" class="logo" />
         </a>
         <div class="navmenu">
-          <a href="index.html" class="navlinks" style="text-decoration: underline #ffa500 ; text-underline-offset: 5px; border: 4px">Home</a>
+          <a
+            href="index.html"
+            class="navlinks"
+            style="
+              text-decoration: underline #ffa500;
+              text-underline-offset: 5px;
+              border: 4px;
+            "
+            >Home</a
+          >
           <a href="classes.html" class="navlinks">Classes</a>
           <a href="products.html" class="navlinks">Products</a>
           <a href="blogs.html" class="navlinks">Blogs</a>
@@ -26,7 +35,73 @@
           <span class="hamburger-element"></span>
         </button>
       </nav>
-
+      <div class="form">
+        <form class="join-form">
+          <span>Subscription Plan</span>
+          <button class="close">x</button>
+          <label for="name">Full Name: </label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" />
+          <label for="mobile">Mobile Number: </label>
+          <input type="number" id="mobile" name="mobile" />
+          <label>Duration:</label>
+          <div class="duration">
+            <input type="radio" id="monthly" name="duration" value="monthly" />
+            <label for="monthly">Monthly</label>
+        
+            <input type="radio" id="yearly" name="duration" value="year" />
+            <label for="yearly">Yearly</label>
+          </div>
+          <label
+            >Mode of Payment:
+            </label
+          >
+          <div class="mode-of-payment">
+            <input type="radio" id="cash" name="Mode of Payment" value="cash" />
+            <label for="cash">Cash</label>
+          
+            <input
+              type="radio"
+              id="online"
+              name="Mode of Payment"
+              value="online"
+            />
+            <label for="online">Online</label>
+          </div>
+          <label class="pt">Personal Training:
+          <span class="pt-additonaltext"
+            >*free with yearly plan</span>
+          </label>
+          <div class="personal-training">
+            <input
+              type="radio"
+              id="required"
+              name="personal-training"
+              value="required"
+            />
+            <label for="required">Required</label>
+            <br>
+            <input
+              type="radio"
+              id="not-required"
+              name="personal-training"
+              value="not-required"
+            />
+            <label for="not-required">Not Required</label>
+          </div>
+          <div class="submit">
+            <div class="terms" style="display: flex;">
+              <input type="checkbox" id="terms" name="terms" style="margin-right: 10px"/>
+              <label for="terms"
+                >I accept all the terms and conditions provided in this
+                form.</label
+              >
+              </div>
+                <button>Buy Now</button>
+          </div>
+        </form>
+      </div>
       <div class="hero-section">
         <div class="hero-content">
           <p class="p1">Revitalize your body</p>
@@ -145,7 +220,10 @@
         <div class="footer-content1">
           <div class="footer-contentitem1">
             <img src="assets/4.png" alt="" />
-            <p>Priortize Your Fitness Goals <br> with our world class services.</p>
+            <p>
+              Priortize Your Fitness Goals <br />
+              with our world class services.
+            </p>
           </div>
           <div class="footer-contentitem2">
             <div class="footer-contentitem2-innercontent">
